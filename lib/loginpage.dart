@@ -27,7 +27,7 @@ class Loginpagestate extends State<Loginpage>{
     final email = TextFormField(
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
-      initialValue: 'example@gmail.com',
+      initialValue: 'example@gmail',
       decoration: InputDecoration(
         hintText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
